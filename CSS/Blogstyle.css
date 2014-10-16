@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* CSS Document */
+html,
+body {
+	margin: 0;
+	padding: 0;
+   
+	background-color:#025E73;
+
+	color: #333;
+	
+	font: normal 100%/1.5 Georgia,serif;
+	
+	background-image:url(Captureforsite.PNG);
+background-repeat:repeat;
+background-attachment:fixed;
+background-position:left; 
+}
+
+
+p,
+span{
+	color:#3CF;
+	padding-left:1em;
+}
+
+#messageform{
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:15%;
+	margin-right:15%;
+	
+	
+}
+span{
+	font:"Arial Black", Gadget, sans-serif;
+	font-size:1em;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-left:2%;
+	
+}
+
+#loginbtn{
+			 color:#0F3;
+	  font-weight:lighter;
+	  font-size: 120%;
+	   background-color:#06C;
+      float:right;
+	  	margin-right:15%;
+ 		border:1.2px  #000 solid;
+		margin-bottom:1em;
+	
+}
+#singUpbtn{
+	 color:#0F3;
+  font-weight:lighter;
+  font-size: 120%;
+   background-color:#06C;
+      float:right;
+	  	margin-right:%;
+  border:1.2px  #000 solid;
+  margin-bottom:1em;
+}#loginbtn:hover,
+#singUpbtn:hover{
+  font-weight:lighter;
+  font-size: 120%;
+  border:thin #0CF solid;
+  background-color:#0CF;
+  color:#F60;
+}#loginbtn:active,
+#singUpbtn:active{
+	background-color:#388FE7;
+	color:#F30;
+}#loginbtn:focus,
+#singUpbtn:focus{
+	background-color:#6CF;
+	color:#F60;
+}
+
+
+#logoutbtn{
+	color:#0F3;
+  font-weight:lighter;
+  font-size: 120%;
+   background-color:#09C;
+  border:thin #0CF solid;
+  float:right;
+  margin-left:0%;
+  margin-right:15%;
+  
+	
+}#logoutbtn:hover{
+  font-weight:lighter;
+  font-size: 120%;
+  border:thin #0CF solid;
+  background-color:#0CF;
+  color:#F60;
+}#logoutbtn:active{
+	background-color:#388FE7;
+	color:#F30;
+}#logoutbtn:focus{
+	background-color:#6CF;
+	color:#F60;
+}#messagebtn{
+	 color:#0F3;
+  font-weight:lighter;
+  font-size: 145%;
+   background-color:#09C;
+  border:thin #0CF solid;
+  float:right;
+  margin-right:15%;
+ 
+}#messagebtn:hover{
+  font-weight:lighter;
+  font-size: 140%;
+  border:thin #0CF solid;
+  background-color:#0CF;
+  color:#F60;
+}#messagebtn:active{
+	background-color:#388FE7;
+	color:#F30;
+}#messagebtn:focus{
+	background-color:#6CF;
+	color:#F60;
+}
+
+#longinFrombtn{
+   color:#0F3;
+  font-weight:lighter;
+  font-size: 100%;
+   background-color:#09C;
+  border:thin #0CF solid;
+  margin-left:0%;
+}#longinFrombtn:hover{
+  font-weight:lighter;
+  font-size: 120%;
+  border:thin #0CF solid;
+  background-color:#0CF;
+  color:#F60;
+}#longinFrombtn:active{
+	background-color:#388FE7;
+	color:#F30;
+}#longinFrombtn:focus{
+	background-color:#6CF;
+	color:#F60;
+}
+#cancelbtn{
+	 color:#0F3;
+  font-weight:lighter;
+  font-size: 120%;
+   background-color:#09C;
+  border:thin #0CF solid;
+   text-align:center;
+    padding-left:5%;
+   padding-right:5%;
+  
+  
+  
+
+}#cancelbtn:hover{
+  font-weight:lighter;
+  font-size: 120%;
+  border:thin #0CF solid;
+  background-color:#0CF;
+  color:#F60;
+}#cancelbtn:active{
+	background-color:#388FE7;
+	color:#F30;
+}#cancelbtn:focus{
+	background-color:#6CF;
+	color:#F60;
+}
+#signUpbtn {
+ color:#0F3;
+  font-weight:lighter;		
+  font-size: 120%;
+   background-color:#09C;
+    border:thin #0CF solid;
+   text-align:center;
+   margin-right:0.7em;
+   margin-left:5em;
+   margin-top:1em;
+   padding-left:5%;
+   padding-right:5%;
+   
+   
+  
+	
+}
+#signUpbtn:hover{
+   font-weight:lighter;
+  font-size: 120%;
+  
+  background-color:#0CF;
+  color:#F60;
+}
+#signUpbtn:active{
+	background-color:#388FE7;
+	color:#F30;
+	
+}
+#signUpbtn:focus{
+	background-color:#6CF;
+	color:#F60;
+	
+}
+
+
+
+#textput{
+	color:#606;
+	width:50%;
+	height:2em;
+	font-size:1em;
+	margin-right:10%;
+}
+#usernames{
+	padding-bottom:3px;
+	margin-bottom:3px;
+	
+	
+}
+#messages1{
+	
+	padding-bottom:0px;
+	margin-bottom:0px;
+	font-size:1em;
+	color:#441591;
+	width:30%;
+	
+}
+
+#userDate{
+	padding-bottom:3px;
+	margin-bottom:3px;
+	padding-top:0;
+	
+	
+	
+}
+#nameSpan{
+	color:#900;
+	font-size:1.2em;
+}
+
+#signspan{
+	
+	font-size:1.2em;
+	padding-right:34px;
+	
+}
+
+#signspanpass{
+	font-size:1.2em;
+}
+.divmain{
+	
+	/*background-color:#C4EFFD;*/
+	border:#06F thin ;
+	border-style:solid;
+	clear:both;
+	background-color:rgba(196, 239, 253, 0.9);
+	
+	
+	
+	margin-right:15%;
+   margin-left:15%;
+   margin-top:1em;
+   padding-left:2%;
+   padding-right:2%;
+	
+
+}
+h3{
+
+color:#F60;
+  font-weight: bold;
+  font-size: 120%;
+  background-color:#333;
+  
+   text-align:center;
+   -webkit-border-radius: 8px;
+-moz-border-radius: 8px;
+border-radius: 8px;
+
+ margin-right:25%;
+   margin-left:25%;
+   margin-top:1em;
+   padding-left:5%;
+   padding-right:5%;
+   
+	
+}
+
+#usersd{
+	color:#609;
+}
+.signUpfrom{
+	text-align:center;
+	padding-top:2em;
+	background-color:#333;
+	padding-right:10em;
+	
+	
+}
+.signUpDiv{
+	
+}
+.sendMessage{
+	background-color:#333;
+	margin-right:25%;
+}
+.loginform{
+	background-color:#333;
+	padding-left:%;
+	
+	
+}
+
+@media screen and (min-width:89em){
+	/* Full mac 15inch screen */
+	.loginform{
+	background-color:#333;
+	padding-left:60%;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+	
+	
+}
+}
+
+@media screen and (min-width:86em){
+	/* This is a single-line comment */
+	.loginform{
+	background-color:#333;
+	padding-left:55%;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+	
+}
+}
+@media screen and (min-width:68em){
+		.loginform{
+	background-color:#333;
+	padding-left:40%;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+	
+}
+
+@media screen and (min-width:30em){
+		.loginform{
+	background-color:#333;
+	padding-left:40%;
+	font-size:9px;
+	padding-top:0.3em;
+	padding-bottom:0.3em;
+		}
+}
+
+
+.login{
+	background-color:#333;
+	
+	
+}
+.myform{
+	background-color:#333;
+}
+h1{
+	font-size:1.1em;
+	color:#0CC;
+	margin-top:0.1em;
+	padding-left:2em;
+	text-align:center;
+	
+}
